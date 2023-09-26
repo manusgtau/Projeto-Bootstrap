@@ -1,0 +1,33 @@
+#produtos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+#produtos div {
+ margin: 10px;
+}
+
+#contato{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background: linear-gradient(pink,red,purple);
+    padding: 100px;
+}
+#contato form{
+width: 500px;
+color:black;
+}
+.form-text{
+    color: blueviolet;
+}
+
+nav{
+    z-index:100;
+    background-color:linear-gradient(pink,red,purple) ;
+    position:fixed;
+    top:0;
+}
